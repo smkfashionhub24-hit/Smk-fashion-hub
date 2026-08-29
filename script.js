@@ -1,7 +1,7 @@
 const products=[
 {id:1,name:"Floral Printed Chudidhar top",cat:"Daily Wear",price:999},
 {id:2,name:"premium Umberlla top",cat:"Daily Wear",price:1099},
-{id:3,name:"Side open Chudidhar top",cat:"Designer Wear",price:1399},
+{id:3,name:"Side open Chudidhar top",cat:"Designer Wear",price:1399image:,"file_000000000f6482119a7d481645fc64e1.png"}, 
 {id:4,name:"Premium max chudidhar",cat:"Designer Wear",price:1499},
 {id:5,name:"Premium Casual wear set",cat:"Casual Wear",price:1799},
 {id:6,name:"Blush Embroidery Chudidhar top",cat:"Designer Wear",price:1599},

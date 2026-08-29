@@ -33,7 +33,7 @@ const productsEl=document.getElementById("products");
 function renderProducts(){
  let list=active==="All"?products:products.filter(p=>p.cat===active);
  productsEl.innerHTML=list.map(p=>`<article class="product">
-  <div class="product-image" style="background:linear-gradient(145deg,${productColors[p.id-1]})"><button class="heart">♡</button><span>SMK</span></div>
+  <div class="product-image" style="background-image:url('${p.image}')">"><button class="heart">♡</button><span>SMK</span></div>
   <div class="product-info"><small>${p.cat}</small><h3>${p.name}</h3><div class="price-row"><b class="price">₹${p.price.toLocaleString("en-IN")}</b><button class="add" onclick="addToCart(${p.id})">ADD TO BAG</button></div></div>
  </article>`).join("");
 }
